@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.startPage{
+    width: 100%;
+    height: 922px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.startBtn{
+    background: url(img/startGame.png);
+    height: 170px;
+    width: 200px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.wrapper{
+    width: 100%;
+    height: 922px;
+    background: url(img/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.left-side{
+    width: 24%;
+    height: 922px;
+    position: absolute;
+    /* border: 1px solid black; */
+}
+.left-side img{
+    display: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid black;     */
+}
+.header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    /* border: 1px solid black;  */
+}
+.score{
+    line-height: 80px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content{
+    position: absolute;
+    width: 78%;
+    height: 36%;
+    /* border: 1px solid black;  */
+    left: 11%;
+    top: 34%;
+}
+.loser{
+    display: none;
+    position: 100%;
+    height: 922px;
+    top: 0;
+    left: 0;
+    /* border: 1px solid red; */
+}
+.con{
+    background: url(img/startP.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 20px;
+}
+.loserScore{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: #222;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.close{
+    background: url(img/closeBtn.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.food{
+    background: url(img/apple.png);
+    background-size: 100% 100%;
+}
+.head{
+    background: url(img/head.png);
+    background-size: 100% 100%;
+}
+.body{
+    background: url(img/body.png);
+    background-size: 100% 100%;
+}
